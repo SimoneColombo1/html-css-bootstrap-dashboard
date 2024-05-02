@@ -1,0 +1,22 @@
+.none{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px){
+    .none{
+        display: inline;
+    }
+}
+
+
+
+
+
