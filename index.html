@@ -16,23 +16,29 @@
     <header>
      
         <div class="container-fluid ">
-            <nav class="row justify-content-between align-items-center py-2"> 
+            <nav class="row justify-content-between align-items-center py-2 "> 
        
-            <div class="col-2">LOGO</div>
-            <div class="col-8 "><form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder=" Prova a Cercare Lezioni di laravel" aria-label="Search">
+            <div class="col-1 px-3 "><img src="./img/logo.svg"></div>
+            <div class="col-9 col-lg-10"><form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2 bg-gray" type="search" placeholder=" Prova a Cercare Lezioni di laravel" aria-label="Search">
                 
               </form>
           </div>
-            <div class="col-2">
-                <span class="none">
-                    <i class="fa-solid fa-list px-2"></i>
-                    <i class="fa-solid fa-question px-2"></i>
-                    <i class="fa-solid fa-ellipsis-vertical px-2"></i>
+            <div class="col-2  col-lg-1  px-2">
+                <span class="none ">
+                    <i class="fa-solid fa-list px-1 "></i>
+                    <i class="fa-solid fa-circle-question px-1"></i>
+                    <i class="fa-solid fa-ellipsis-vertical px-1"></i>
                 </span>
-                
-                <i class="fa-solid fa-bell px-2"></i>
-                   
+                <span class="dropdown">
+                 <button class="btn dropdown-toggle"  id="dropdownMenu2"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  
+                    <i class="fa-solid fa-bell text-center"></i></button>
+                 <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button">Profilo</button>
+                    <button class="dropdown-item" type="button">Fatturazione</button>
+                    <button class="dropdown-item" type="button">Logout</button>
+                  </div>
+                   </span>
             
             </div>        
       </nav>
@@ -41,7 +47,7 @@
     <main>
           <div class="container-fluid ">
            <div class="row justify-content-start">
-           <div class="col-2 px-0  bg-dark text-center text-white">
+           <div class="col-2 col-lg-1  bg-dark text-center text-white">
             <div class="container-fluid side  text-white" >
                 <ul class="list-group">
                     <li class="list-group">
@@ -62,7 +68,7 @@
            </div>
         </div>
  
-        <div class="col-10">
+        <div class="col-10 col-lg-11">
            <div class="container-fluid  px-0 ">
             
             
@@ -78,7 +84,7 @@
   
               
               <div class="row tabelle overflow-auto">
-                     <div class="col-12 col-lg-8 py-4">  
+                     <div class="col-12 col-lg-8 py-4 order-1 ">  
                     
                         <table class="table">
                             <thead>
@@ -160,7 +166,7 @@
 
 
                         </table></div>
-                        <div class="col-12 col-lg-8 py-4">
+                        <div class="col-12 col-lg-8 py-4  order-2 order-lg-3" >
                         <table class="table">
                       <thead>
                         <tr><th><h2>FAQ</h2></th></tr>
@@ -175,7 +181,7 @@
                         </table>
                     </div>
                         
-                    <div class="col-12 col-lg-4  py-4">
+                    <div class="col-12 col-lg-4  py-4 order-3 order-lg-2">
                     <table class="table">
                         <thead>
                             <tr><th><h2>todo</h2></th></tr>
@@ -191,8 +197,9 @@
                                    <th>d</th> 
                                 </tr>
                                </tbody>
-                        </table>
-                        <div class="col-12 col-lg-4 py-4">
+                        </table> 
+                    </div> 
+                        <div class="col-12 col-lg-4 py-4 order-4">
                             <table class="table ">
                                 
                                       <tbody>
@@ -209,7 +216,7 @@
                     </div>
                     
                     
-                    </div> 
+                   
                    
 
 

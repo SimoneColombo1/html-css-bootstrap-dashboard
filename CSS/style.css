@@ -17,16 +17,27 @@
 
 }
 
+.fa-bell{
+    color:#ff9003 ;
+    margin-bottom: 0.6rem;
+}
+
+
+
+
+
 @media screen and (min-width:992px){
     .none{
         display: inline;
     }
     .tabelle{
-        height: 81.6vh;
+        height: 81vh;
     }
     .side{
-        height: 94.3vh;
+        height: 93.7vh;
     }
+
+  
 }
 
 
