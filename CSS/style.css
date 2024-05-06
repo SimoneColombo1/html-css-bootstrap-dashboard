@@ -131,7 +131,20 @@
 
 
 
+@media screen and (min-width:768px){
 
+    .tabelle{
+        height: 78.4vh;
+    }
+    
+    
+    
+    .side{
+        height: 92.6vh;
+    }
+
+
+}
 
 
 
