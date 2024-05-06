@@ -18,13 +18,13 @@
         <div class="container-fluid ">
             <nav class="row justify-content-between align-items-center py-2 "> 
        
-            <div class="col-1 px-3  "><img src="./img/logo.svg"></div>
+            <div class="col-2 col-md-1 col-lg-1 px-3  "><img src="./img/logo.svg" class="none"> <img src="./img/mobile-logo.png" class="none-sm logo-sm"></div>
             <div class="col-9 col-md-10 col-lg-10"><form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2 bg-gray" type="search" placeholder=" Prova a Cercare Lezioni di laravel" aria-label="Search">
                 
               </form>
           </div>
-            <div class="col-2  col-md-1 col-lg-1  px-2">
+            <div class="col-1  col-md-1 col-lg-1  px-1">
                 <span class="none ">
                     <i class="fa-solid fa-list px-1 "></i>
                     <i class="fa-solid fa-circle-question px-1"></i>
@@ -102,11 +102,12 @@
         <div class="col-10 col-md-11 col-lg-11">
            <div class="container-fluid  px-0 ">
             
-            <div class="row justify-content-end ">
+         
               
-                <div class=" collapse collapse-horizontal" id="collapseside">
-<div class="col-12 bg-opacity-dark "></div>
-                </div>
+                <div class=" collapse collapse-horizontal new" id="collapseside">
+                     <div class="row justify-content-end ">  
+<div class="col-7 bg-opacity-dark "></div>
+               
 
                 
 
@@ -119,11 +120,14 @@
 
 
 
-              <div class="collapse collapse-horizontal "   id="collapseside">
-                            <div class="info col-5">
+              
+                            <div class="info col-12 col-lg-5">
                                 <form>
                                     <h2>Inserisci un nuovo studente
-                                         <button><i class="fa-solid fa-xmark"></i></button></h2>  
+                                         <button class="btn" type="button" data-toggle="collapse" data-target="#collapseside" aria-controls="collapseside">
+                                            <i class="fa-solid fa-xmark"></i>
+
+                                         </button></h2>  
 
                                   <div class="row">
                                     <div class="col-6">
@@ -164,12 +168,12 @@
                                     </div>
                                     <div class="col-4 py-1">
                                         città <br>
-                                        <input type="text">
+                                        <input type="text" class="col-12">
                                     
                                     </div>
                                     <div class="col-4 py-1">
                                         Stato <br>
-                                        <select > 
+                                        <select> 
                                               
                                             <option>Seleziona...</option>
                                                 <option> spagna</option>
@@ -179,7 +183,7 @@
                                     <div class="col-4 py-1">
                                        
                                        Number <br>
-                                        <input type="text"> 
+                                        <input type="text" class="col-12"> 
                                     
                                     </div>
                                     <div class="col-12 py-1">
@@ -203,20 +207,67 @@
                                 </form>  
                             </div>
                                  </div>
+                                </div>
 
 
                       </div>
-              <div class="row bg-blue justify-content-between text-white">
+                      
+                      
+                      
+                    
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+                      <div class="row bg-blue justify-content-between text-white">
             <div class="col-12  col-md-5 col-lg-4 order-2 order-lg-2">
                 
+             
+              
+             
+             
+             
+             
+             
+             
+             
+             
+                
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 
                <div class="row">
                    <div class="col-3 py-2 "> <h1 >Boolean</h1> </div>
-                <div class="col-5  py-3  mx-md-5 py-lg-4 px-4 "><span class="border-circle">piano blaze</span></div>  
+                <div class="col-5  py-3  mx-md-5 py-lg-4 px-4 mx-lg-3 px-lg-1 "><span class="border-circle text-nowrap">piano blaze</span></div>  
                 </div>
                
             <div class="py-2 ">
                 <span class="border-circle">3 app</span> <i class="fa-solid fa-angles-right"></i>
+               <span class="border-circle none-sm">+</span>
                 <span class="border-circle none">boolean mobile app</span>
                 <span class="border-circle none">boolean web app</span>
                 <span class="border-circle none">boolean blog app</span>
@@ -232,17 +283,43 @@
 
             </div>
             <div class="col-12 col-md-4 col-lg-4 py-2 order-1 order-md-3 order-lg-3">
-                <span><h2 class="fs-5">Nuovo Studente <button class="btn btn-outline-light btn-top mx-4" type="button" data-toggle="collapse" data-target="#collapseside" aria-expanded="false" aria-controls="collapseside"   ><i class="fa-solid fa-plus"></i></button></h2></span>
+                <span><h2 class="fs-5">Nuovo Studente <button class="btn btn-outline-light btn-top mx-4" type="button" data-toggle="collapse" data-target="#collapseside" aria-controls="collapseside" ><i class="fa-solid fa-plus"></i></button></h2></span>
+          
+           
             </div>
- 
-            
+           
 
 
 
 
-              </div>
-                     
-              
+
+
+
+
+
+
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </div>            
               <div class="row tabelle overflow-auto">
                      <div class="col-12 col-lg-8 py-4 order-1 order-lg-1">  
                     
