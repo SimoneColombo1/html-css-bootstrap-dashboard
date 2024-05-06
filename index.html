@@ -18,20 +18,20 @@
         <div class="container-fluid ">
             <nav class="row justify-content-between align-items-center py-2 "> 
        
-            <div class="col-1 px-3 "><img src="./img/logo.svg"></div>
-            <div class="col-9 col-lg-10"><form class="form-inline my-2 my-lg-0">
+            <div class="col-1 px-3  "><img src="./img/logo.svg"></div>
+            <div class="col-9 col-md-10 col-lg-10"><form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2 bg-gray" type="search" placeholder=" Prova a Cercare Lezioni di laravel" aria-label="Search">
                 
               </form>
           </div>
-            <div class="col-2  col-lg-1  px-2">
+            <div class="col-2  col-md-1 col-lg-1  px-2">
                 <span class="none ">
                     <i class="fa-solid fa-list px-1 "></i>
                     <i class="fa-solid fa-circle-question px-1"></i>
                     <i class="fa-solid fa-ellipsis-vertical px-1"></i>
                 </span>
                 <span class="dropdown">
-                 <button class="btn dropdown-toggle"  id="dropdownMenu2"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  
+                 <button class="btn dropdown-toggle "  id="dropdownMenu2"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  
                     <i class="fa-solid fa-bell text-center"></i></button>
                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                     <button class="dropdown-item" type="button">Profilo</button>
@@ -47,117 +47,308 @@
     <main>
           <div class="container-fluid ">
            <div class="row justify-content-start">
-           <div class="col-2 col-lg-1  bg-dark text-center text-white">
-            <div class="container-fluid side  text-white" >
-                <ul class="list-group">
-                    <li class="list-group">
-                        H
+           <div class="col-2 col-md-1 col-lg-1  bg-img  text-white">
+            <div class="container-fluid side text-white" >
+            
+                <ul class="list-group ">
+                    <li class="list-group py-2 hover-opacity">
+                        
+                        
+                        <span >
+                            
+                        <i class="fa-solid fa-house"></i>
+                    <span class="none px-2">Home</span>
+                    
+                </span>
+                    
+                    
                     </li>
-                    <li class="list-group">
-                       S
+                    
+                    <li class="list-group py-2 px-1 hover-opacity">
+                        
+                        
+                        
+                        <span>
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <span class="none px-2">Stats</span>
+                    </span>
+                    
+                    
+                    
                     </li>
-                    <li class="list-group">
-                          f
+                    <li class="list-group py-2 hover-opacity">
+                        <span><i class="fa-solid fa-signal hover-opacity"></i>
+                            <span class="none px-2">Signal</span>
+                        
+                        </span>
                     </li>
                 </ul>           
 
                   <ul class="list-group">
-                    <li class="list-group">I</li>
+                    <li class="list-group py-2 hover-opacity">
+                     <span>
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="none">Admin</span>
+                     </span>
+
+
+
+                    </li>
                   </ul>
 
            </div>
         </div>
  
-        <div class="col-10 col-lg-11">
+        <div class="col-10 col-md-11 col-lg-11">
            <div class="container-fluid  px-0 ">
             
+            <div class="row justify-content-end ">
+              
+                <div class=" collapse collapse-horizontal" id="collapseside">
+<div class="col-12 bg-opacity-dark "></div>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+              <div class="collapse collapse-horizontal "   id="collapseside">
+                            <div class="info col-5">
+                                <form>
+                                    <h2>Inserisci un nuovo studente
+                                         <button><i class="fa-solid fa-xmark"></i></button></h2>  
+
+                                  <div class="row">
+                                    <div class="col-6">
+                                        Nome <br>
+                                        <input type="text">
+                                    
+                                    </div>
+                                  
+                                    <div class="col-6">
+                                        Cognome <br>
+                                        <input type="text">
+                                    
+                                    </div>
+                                    <div class="col-6">
+                                        Email <br>
+                                        <input type="email">
+                                    
+                                    </div>
+                                    <div class="col-6">
+                                        Password <br>
+                                        <input type="text">
+                                    
+                                    </div>
+                                    <div class="col-6">
+                                        Email <br>
+                                        <input type="email">
+                                       
+                                    </div>
+                                    <div class="col-6">
+                                        Password <br>
+                                        <input type="text">
+                                    
+                                    </div>
+                                    <div class="col-12 py-1">
+                                        indirizzo<br>
+                                        <input class="col-12" type="text">
+                                    
+                                    </div>
+                                    <div class="col-4 py-1">
+                                        città <br>
+                                        <input type="text">
+                                    
+                                    </div>
+                                    <div class="col-4 py-1">
+                                        Stato <br>
+                                        <select > 
+                                              
+                                            <option>Seleziona...</option>
+                                                <option> spagna</option>
+                                        </select>
+                                    
+                                    </div>
+                                    <div class="col-4 py-1">
+                                       
+                                       Number <br>
+                                        <input type="text"> 
+                                    
+                                    </div>
+                                    <div class="col-12 py-1">
+                                        Foto <br>
+                                        <input type="file">
+                                     
+                                    </div>
+                                    <div class="col-12 py-1">
+                                        <input type="checkbox"> Selezione per proseguire
+                                    
+                                    </div>
+                                         
+                                    <div class="col-8 py-1">
+                                        <button class="btn btn-primary">Salva</button> <button class="btn btn-warning">Svuota</button>
+                                    </div>
+                                
+                                </div>
+                                    
+
+
+                                </form>  
+                            </div>
+                                 </div>
+
+
+                      </div>
+              <div class="row bg-blue justify-content-between text-white">
+            <div class="col-12  col-md-4 col-lg-4 order-2 order-lg-2">
+                
+                
+               <div class="row">
+                   <div class="col-3 py-2 "> <h1 >Boolean</h1> </div>
+                <div class="col-5  py-3 py-lg-4 px-4 "><span class="border-circle">piano blaze</span></div>  
+                </div>
+               
+            <div class="py-2 ">
+                <span class="border-circle">3 app</span> <i class="fa-solid fa-angles-right"></i>
+                <span class="border-circle none">boolean mobile app</span>
+                <span class="border-circle none">boolean web app</span>
+                <span class="border-circle none">boolean blog app</span>
+            </div>
             
-              <div class="row bg-primary">
-                <ul class="list-group mx-vew  ">
-                    <li class="list-group">s</li>
-                    <li class="list-group">s</li>
-                    <li class="list-group">s</li>
-                    <li class="list-group">s</li>
-                    <li class="list-group">s</li>
-                </ul>
+            
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 py-1 order-3 order-md-2 order-lg-2">
+                <h2 class="fs-5">Studenti online negli ultimi 30 minuti</h2>
+                <p class="fs-1">125</p>
+
+
+
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 py-2 order-1 order-md-3 order-lg-3">
+                <span><h2 class="fs-5">Nuovo Studente <button class="btn btn-outline-light btn-top mx-4" type="button" data-toggle="collapse" data-target="#collapseside" aria-expanded="false" aria-controls="collapseside"   ><i class="fa-solid fa-plus"></i></button></h2></span>
+            </div>
+ 
+            
+
+
+
+
               </div>
-  
+                     
               
               <div class="row tabelle overflow-auto">
-                     <div class="col-12 col-lg-8 py-4 order-1 ">  
+                     <div class="col-12 col-lg-8 py-4 order-1 order-lg-1">  
                     
-                        <table class="table">
-                            <thead>
-                                 <tr>
-                                <th>
-                                    <h2>Lorem ipsum </h2>
-                                </th>
+                        <table class="table tabella">
                             
-                            </tr> 
-                        </thead>
                         <tbody>
                             <tr>
-                               <th>t</th>
-                               <th>t</th>
-                               <th>t</th>
-                               <th>t</th>
-                               <th>t</th>
+                                <th>
+                                   <h2>Prossime classi </h2> 
+                                  
+                                </th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            
+                            
+                            <tr>
+                               <th>Nome </th>
+                               <th ><span class="none">Data inizio</span></th>
+                               <th> <span class="none">ROI</span></th>
+                               <th>Stato</th>
+                               <th>Azioni</th>
                             </tr>
                             <tr>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
+                                <td ><i class="fa-solid fa-code" ></i> Classe 75 </td>
+                                <td > <span class="none"> 15 Feb 2021</span> </td>
+                                <td> <span class="none">20%</span> </td>
+                                <td><span class="done border-table">Done</span></td>
+                                <td>
+                                    <button class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
+                                    <button class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                </td>
                             </tr>
                             <tr>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
+                                <td><i class="fa-solid fa-code" ></i> Classe 76</td>
+                                <td> <span class="none">16 Feb 2021</span> </td>
+                                <td> <span class="none">20%</span>  </td>
+                                <td><span class="done border-table">
+                                    Done
+
+                                </span></td>
+                                <td><button class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
+                                    <button class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
                             </tr>
                             <tr>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
+                                <td>
+                                 <i class="fa-solid fa-code" ></i> Classe 77
+                            </td>
+                                <td>  <span class="none">17 Feb 2021</span> </td>
+                                <td> <span class="none">20%</span> </td>
+                                <td><span class="process border-table">
+                                    process
+                                </span></td>
+                                <td><button class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
+                                    <button class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
                             </tr>
                             <tr>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
+                                <td><i class="fa-solid fa-code" ></i> Classe 78</td>
+                                <td> <span class="none">18 Feb 2021</span>   </td>
+                                <td> <span class="none">20%</span>   </td>
+                                <td><span class="done border-table">Done</span></td>
+                                <td><button class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
+                                    <button class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
                             </tr>
                             <tr>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
+                                <td><i class="fa-solid fa-code" ></i> Classe 79</td>
+                                <td> <span class="none">19 Feb 2021</span>  </td>
+                                <td> <span class="none">20%</span>  </td>
+                                <td> <span class="failed border-table">
+                                    failed
+
+                                </span>
+                            </td>
+                                <td><button class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
+                                    <button class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
                             </tr>
                             <tr>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
+                                <td><i class="fa-solid fa-code" ></i> Classe 80</td>
+                                <td>  <span class="none">20 Feb 2021</span>  </td>
+                                <td> <span class="none">20%</span>   </td>
+                                <td><span class="done border-table">Done</span></td>
+                                <td><button class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
+                                    <button class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
                             </tr>
                             <tr>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
+                                <td><i class="fa-solid fa-code" ></i> Classe 81</td>
+                                <td> <span class="none">21 Feb 2021</span>   </td>
+                                <td> <span class="none">20%</span>   </td>
+                                <td>
+                                     <span class="failed border-table">
+                                        failed
+    
+                                    </span>
+                                </td>
+                                <td><button class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
+                                    <button class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
                             </tr>
                             <tr>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
-                                <th>t</th>
+                                <td><i class="fa-solid fa-code" ></i> Classe 82</td>
+                                <td> <span class="none">22 Feb 2021</span>   </td>
+                                <td> <span class="none">20%</span>   </td>
+                                <td><span class="done border-table">Done</span></td>
+                           <td><button class="btn btn-outline-secondary"><i class="fa-solid fa-pen"></i></button>
+                                    <button class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button></td>
                             </tr>
                        
                        
@@ -167,52 +358,82 @@
 
                         </table></div>
                         <div class="col-12 col-lg-8 py-4  order-2 order-lg-3" >
-                        <table class="table">
-                      <thead>
-                        <tr><th><h2>FAQ</h2></th></tr>
-                      </thead>
-                          <tbody>
-                              <tr><th>d</th></tr>
-                              <tr><th>d</th></tr>
-                              <tr><th>d</th></tr>
+                        <div class="faq">
+                      
+                       <h2>F.A.Q</h2>
+                     <div >Come aggiungere un nuovo studente?  
+                        <button class="btn " type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            <i class="fa-solid fa-chevron-down"></i>
+                          </button>
+                       
+                        <div class="collapse no-border" id="collapseExample">
+                          <div class="no-border">
+                            Clicca sul + in alto nella sezione blu.
+                          </div>
+                        </div> </div>
+                    
+                    
+                    
+                     <div class="justify-content-between ">  Come posso accedere alle informazioni del mio account?
+                        <button class="btn " type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+                            <i class="fa-solid fa-chevron-down"></i>
+                          </button>
+                       
+                        <div class="collapse  no-border" id="collapseExample1">
+                          <div class="no-border">
+                            Clicca sull'icona della campanella
+                          </div>
+                        </div>
+                     </div>
                      
-
-                          </tbody>
-                        </table>
+                     <div>Posso usare questa dashboard da mobile?  
+                     <button class="btn " type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+                        <i class="fa-solid fa-chevron-down"></i>
+                      </button>
+                   
+                    <div class="collapse no-border" id="collapseExample2">
+                      <div class="no-border">
+                        Si
+                      </div>
+                    </div>
+                    </div>
+                    </div>
                     </div>
                         
-                    <div class="col-12 col-lg-4  py-4 order-3 order-lg-2">
-                    <table class="table">
-                        <thead>
-                            <tr><th><h2>todo</h2></th></tr>
-                          </thead>
-                              <tbody>
-                                  <tr>
-                                    <th>d</th>
-                                </tr>
-                                  <tr>
-                                    <th>d</th>
-                                </tr>
-                                  <tr>
-                                   <th>d</th> 
-                                </tr>
-                               </tbody>
-                        </table> 
-                    </div> 
-                        <div class="col-12 col-lg-4 py-4 order-4">
-                            <table class="table ">
+                    <div class="col-12 col-lg-4  py-4 order-3 order-lg-2 tpdo">
+                    <div class="faq">
+                        
+                            <h2>Todo</h2>
+                                  
+                            <div>
+                                <form  class="faq">
+                                    <div >
+                                    <input type="checkbox"class="mx-3"  placeholder="Kikcoff nuove classi"> Kikcoff nuove classi
+                                    </div>
+                                    <div>
+                                    <input class="mx-3" type="checkbox" placeholder="lezione su bootrap 5 in classe #75">lezione su bootrap 5 in classe #75
+                                    </div>
+                                    
+                                    <div>
+                                    
+                                    <input type="checkbox"  class="mx-3" placeholder="Controllare username github studenti"> Controllare username github studenti
+                              </div>  </form>
+                            </div>
+                        </div> 
+                    
+                        
+                            <div class="faq my-5">
                                 
-                                      <tbody>
-                                          <tr>
-                                            <th>d</th>
-                                        </tr>
-                                          <tr>
-                                            <th>d</th>
-                                        </tr>
-                                          <tr><th>d</th></tr>
-                                          </tbody>
-        
-                                </table>
+                                     <div>
+                                        <img src="./img/stats.jpeg" id="stats">
+                                        <h3>Utenti attivi</h3>
+                                        <p>Lista degli utenti attivi in piattaforma nell'ultimo mese</p>
+                                     </div>
+                                              <div>Gennaio: 1200</div>
+                                              <div>Febbraio: 800</div>
+                                              <div>Marzo: 1500</div>
+                                              <div> <a href="">Visualizza report approfondito</a></div>
+                                </div>
                     </div>
                     
                     
@@ -257,7 +478,7 @@
 
           </div>      
          
-
+        
 
     </main>
     <footer></footer>

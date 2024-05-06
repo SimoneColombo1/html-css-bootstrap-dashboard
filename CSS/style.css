@@ -9,12 +9,19 @@
     height: 91.8vh;
 }
 
-
+.tabella{
+    border: solid 1px #cbcbcb ;
+    border-radius: 0.8rem;
+}
 
 .tabelle{
-    height: 70vh;
+    height: 60vh;
     overflow: auto;
 
+}
+.btn-top{
+    height: 2.5rem;
+    width: 2.5rem;
 }
 
 .fa-bell{
@@ -22,13 +29,120 @@
     margin-bottom: 0.6rem;
 }
 
+.bg-img{
+    background-color:#051e34 ;
+
+}
+
+
+.bg-blue{
+    background-color: #1b72e8;
+}
+
+.border-circle{
+    
+    
+    padding: 0.3rem 0.5rem;
+    height: 2rem;
+    border-radius:1rem ;
+    background-color:#165bba;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.border-table{
+    
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    
+    
+}
+.done{
+    background-color: #198754;
+    color: white;
+}
+
+.process{
+    background-color:#ffc107 ;
+    color: white;
+}
+.failed{
+    background-color:#dc3545 ;
+    color: white;
+}
+
+
+.fa-code{
+    background-color:#f26551 ;
+    border-radius: 50%;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    vertical-align:middle ;
+    color: white;
+    padding-top: 0.3rem;
+    font-size: 1.3rem;
+}
+
+ .faq div .no-border{
+    border-bottom: none;
+}
+  
+.tpdo{
+    height: 400px;
+}
+
+
+
+#stats{
+    height: 400px;
+    width: 400px;
+}
+
+.faq{
+    border: 1px solid #cbcbcb  ;
+    border-radius: .5rem;
+}
+ .faq h2{
+    border-bottom: 1px solid #cbcbcb  ;
+    padding: 0.8rem;
+ }
+ .faq div{
+    border-bottom: 1px solid #cbcbcb  ;
+    padding: 1rem;
+ }
+
+
+.info{
+    display: flex;
+    position: absolute;
+   background-color: white; 
+   justify-content: end;
+   height: 94vh;
+}
+
+
+.bg-opacity-dark{
+
+    background-color:black ;
+    opacity: 0.6;
+}
 
 
 
 
-@media screen and (min-width:992px){
+
+
+
+
+
+
+
+
+ @media screen and (min-width:992px){
     .none{
-        display: inline;
+        display: inline
     }
     .tabelle{
         height: 81vh;
@@ -36,7 +150,19 @@
     .side{
         height: 93.7vh;
     }
+    .bg-img{
+        background-color:#051e34 ;
+        background-image: url(../img/sidebar-bg.png);
 
+    }
+    .hover-opacity:hover{
+   
+        background-color: #828f95;
+        
+         
+         
+     }
+     
   
 }
 
